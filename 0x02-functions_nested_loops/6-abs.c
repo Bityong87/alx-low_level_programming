@@ -4,7 +4,7 @@
  * @n: the the int to check
  * Return: returns the absolute valute of int
  */
-int _abs(int n)
+int _abs(int c)
 {
 	if (c > 0 || c == 0)
 	{
