@@ -1,5 +1,4 @@
 #include "main.h"
-#include "_putchar"
 /**
  * jack_bauer - prints every minute of the dayof jack bauer,
  * starting from 00:00 to 23:59, min loop counts min,
@@ -17,15 +16,15 @@ void jack_bauer(void)
 	{
 	while (minutes <= 59)
 	{
-	mins_reminder = minutes % 10;
-	hours_reminder = hours % 10;
-	_putchar(hours / 10 + '0');
-	_putchar(hours_reminder + '0');
-	_putchar(':');
-	putchar(minutes / 10 + '0');
-	_putchar(mins_reminder + '0');
-	minutes++;
-	_putchar('\n');
+		mins_reminder = minutes % 10;
+		hours_reminder = hours % 10;
+		_putchar(hours / 10 + '0');
+		_putchar(hours_reminder + '0');
+		_putchar(':');
+		_putchar(minutes / 10 + '0');
+		_putchar(mins_reminder + '0');
+		minutes++;
+		_putchar('\n');
 	}
 	hours++;
 	minutes = 0;
