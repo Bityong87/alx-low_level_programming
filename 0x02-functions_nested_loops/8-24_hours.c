@@ -12,7 +12,7 @@ void jack_bauer(void)
 	int hours_reminder;
 	int mins_reminder;
 
-	while (hour <= 23)
+	while (hours <= 23)
 	{
 	while (minutes <= 59)
 	{
