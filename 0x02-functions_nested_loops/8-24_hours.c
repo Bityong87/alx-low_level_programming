@@ -1,4 +1,5 @@
 #include "main.h"
+#include "_putchar"
 /**
  * jack_bauer - prints every minute of the dayof jack bauer,
  * starting from 00:00 to 23:59, min loop counts min,
