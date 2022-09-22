@@ -35,7 +35,7 @@ int _strcmp(char *s1, char *s2)
 		if (s1[c] == s2[c])
 		{
 			c++;
-			continue
+			continue;
 		}
 		else
 
