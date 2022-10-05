@@ -26,8 +26,7 @@ char *argstostr(int ac, char **av)
 		{
 			size++;
 			j++;
-			k++;
-		
+
 		}
 		size++;
 		i++;
@@ -50,7 +49,7 @@ char *argstostr(int ac, char **av)
 		arg[k] = '\n';
 		k++;
 		i++;
-		
+	}
 	arg[k] = '\0';
 
 	return (arg);
